@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<htmllang="en">
+    <html>
+<head>
+	<title> Wiktoria Bigaj </title>
+<meta charset="utf-8"/>
+	
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Lato" rel="stylesheet">
+
+	
+<style>
+	
+	/*about*/
+		
+		.contact {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+			grid-template-areas: "nav nav nav nav nav nav nav nav nav nav nav nav"
+				"title title title title title title title title title title title title "
+				" info info info info info info info info info info info info "
+				"social social social social social social social social social social social social"
+				
+				;
+	}
+	
+			
+		/* ------ CSS RESET ------ */
+* {
+    padding: 0;
+    margin: 1;
+    font-size: 100%;
+    line-height: 1.3em;
+}
+
+		
+		/*--nav--*/
+		
+		.nav {grid-area: nav;}
+		
+ nav {
+    
+   
+	position: fixed;
+	top: 0;
+	left: 0;
+    width: 100%;
+	height: 100px;
+	padding: 10px 100px;
+	color: #424241;
+	background-color: #ffff;
+	transition: .3s;
+	box-sizing: border-box;
+		}
+		
+		nav.black {
+			background: #424241;
+			height: 100px;
+			padding: 10px, 100px;
+		}
+nav ul {
+	display:flex;
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+    text-align: center;
+	
+		}
+nav ul li {
+	
+	list-style: none;
+    display: inline;
+		}
+		
+		nav ul li a {
+			line-height: 80px;
+			color: #424241;
+			padding: 12px 30px;
+			text-decoration: none;
+			text-transform: uppercase;
+			transition: .3s;
+		}
+		
+		nav.black ul li a {
+			color: #fff;
+			}
+		nav ul li a:focus {
+			outline: none;
+		}
+		monogram {
+			vertical-align: middle;
+		}
+		
+		
+			
+			/* -------------- LINKS ---------------- */
+a {
+    color: #424241;
+    text-decoration: none;
+    display: inline;
+    }
+a:hover {
+    color: #f4ce2f;
+    border-bottom: none;}
+		
+.anchor:{ 
+		font-family: 'Lato', sans-serif;
+	    
+			
+		} 
+		
+		/*--title---*/
+		
+		.title {grid-area: title;}
+		
+		.title h1 {
+			font-family: 'Lato', sans-serif;
+			font-size: 5em;
+			padding-top: 100px;
+			padding-bottom: 50px;
+			text-align: center;
+			color: #ffff;
+			background-color: #f4ce2f;
+			}
+	
+	
+	
+	/*---illustration----
+	
+	.contactill {grid-area: contactill;}
+	
+	contactill {
+		display: grid;
+		margin: 10px;
+		padding-top: 25em;
+		padding-left: 4em;
+		
+	}*/
+	
+	/*---info---*/
+	
+	.info {grid-area: info;}
+	
+	.info p {
+		font-family: 'Lato', sans-serif;
+			width: 500px;
+		
+			text-align: center;
+			color: #424242;
+		    font-size: 1.5em;
+		    padding-left: 21em;
+		padding-bottom: 1em;
+		padding-top: 1em;}
+	
+	info{
+		padding-bottom: 50em;
+	}
+	
+	/*---social---*/
+		
+		.social {grid-area: social;}
+		
+		.social a img: hover{
+    opacity: 0.8;
+			color: #424241;
+    transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;}
+		
+    .social li {
+    display: inline-block;
+    color: #f4ce2f;
+	margin: 20px;}
+		
+   .social li img { 
+    width: 50px;
+	}
+		
+   .social {
+    margin-top: 1em;
+    margin-bottom: 0em;
+    text-align: center;
+	padding-top: 0em;
+	background-color: #ffff;}
+		
+   .social img {
+	
+    width: 100%;
+    align-items: center;
+    display: block;
+    margin: 1em 1em 1em 0;}
+		
+		
+   .social ul {
+    width: 100%;
+  }
+		
+	.social a: hover {
+    color: #424241;
+	opacity: 0.8;
+    }
+		
+		.social a: visited {
+		color: #424241;
+		}
+	
+</style>
+	
+	</head>
+		
+		
+		
+		
+		
+		
+		
+		<body>
+	
+			
+			
+			<div class="contact">
+		
+			
+			<div class="nav">
+			<nav> 
+				<img src="images/monogram.png" alt="monogram">
+    <ul>
+    
+        <li><a href="index.html">HOME</a></li>
+		<li><a href="about.html">ABOUT ME</a></li>
+        <li><a href="portfolio.html">MY WORK</a></li>
+        <li><a href="contact.html">CONTACT ME</a></li>
+		<li><a href="cv.html">RESUME</a></li>
+		
+    </ul>
+    </nav>	
+				</div>
+				
+				
+			<div class="title">
+		
+				<h1> Don't be a stranger!</h1></div>
+				
+				
+			
+				<div class="info">
+				
+					<p>If you like what you see, why not contact me?</p>
+				<p><b>Email me at: bigajwiktoria@gmail.com</b></p>
+				
+				</div>
+				
+				<div class="social">
+		<ul>
+            <li><a href="https://wiktoriabigaj.tumblr.com/"><img src="socialicons/tumblr-logo-button.svg" alt="Follow me on Tumblr" /></a></li>
+            <li><a href="https://github.com/bigajwiktoria"><img src="socialicons/github-logo.svg" alt="Follow me on GitHub" /></a></li>
+            <li><a href="https://www.bigajwiktoria@gmail.com/"><img src="socialicons/email.svg" alt="Contact me through Email" /></a></li>
+            <li><a href="https://www.instagram.com/wiktoria_designs/"><img src="socialicons/instagram-logo.svg" alt="Follow me on Instagram" /></a></li>
+        </ul>
+        </div>
+			
+				
+				
+			</div>
+		</body>
